@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Stage') {
             steps {
-                git branch: 'main', url: 'https://github.com/22120362/22120362.git' //sourse
+                git branch: 'main', url: 'https://github.com/22120362/22120362.git'
             }
         }
 
